@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Tela de login</title>
+        <!--Seta o unicode do site para o padrao BR-->
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+        <script src="./js/index.js"></script>
+    </head>
+    <body>
+
+        <div class="container-principal">
+            <div class="formulario">
+                <form id="form-login">
+                    <input type="text" placeholder="usuario" id="usuario" required="true" minLength="3" maxLength="15"/>
+                    
+                    <input type="password" placeholder="senha" id="senha" required="true" minLength="6" maxLength="18"/>
+                    
+                    <input type="submit" value="Entrar" onclick="logar();return false" />
+                </form>
+            </div>    
+        </div> 
+    </body>
+</html>
