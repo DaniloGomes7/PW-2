@@ -19,6 +19,12 @@ function logar(event){
             }, 100);
         });
     }else{
-      
+        Swal.fire({
+            title: 'Erro!',
+            text: 'Usuario ou senha incorretos',
+            icon: 'error',
+            confirmButtonText: "Tentar novamente"
+        }).then(() => {
+        });
     }
 }
