@@ -5,25 +5,42 @@
     height:100%;
     background-color : #0929a7;
     vertical-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
    
 }
 .formulario-cadastro{
     padding: 20px;
-    background-color: blueviolet;
+    background-repeat: inherit 100%;
+    background-color: rgb(34, 0, 66);
     width: 400px;
     box-shadow:5px 5px 5px rgb(0, 0, 0);
     border-radius: 10px;
 }
-input [type= "email"], input [type="text"], input[type="password"]{
-    
-    width: 100%;
-    padding: 10px;
+input[type= "email"]{
     margin: 10px 0;
     border-radius: 5px;
-    font-size: 16px; 
     border: 1px solid black;
-
+    font-size: 15px;
+    
 }
+input[type="text"]{
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+    
+input[type="password"]{
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+
 input [type="submit"]{
     width: 100%;
     padding: 15px;
@@ -33,4 +50,8 @@ input [type="submit"]{
     border: 2px solid black;
 
 }
-    
+form h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: beige;
+}

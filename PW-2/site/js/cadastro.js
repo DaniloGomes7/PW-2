@@ -17,7 +17,7 @@ function cadastrar(event){
             confirmButtonText: "OK"
         }).then(() => {
             setTimeout(() => {
-                location.href="./index.html";
+                location.href="../index.html";
             }, 100);
         });
     
