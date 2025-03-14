@@ -1,7 +1,5 @@
 function logar(event){
-    //impede o envio normal do formulário
-    //força a chamada a passar pelo "modal"
-
+  
     event.preventDefault();
 
     var usuario = document.getElementById('usuario').value;

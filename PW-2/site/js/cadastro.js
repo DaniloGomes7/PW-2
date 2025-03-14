@@ -1,10 +1,8 @@
 function cadastrar(event){
-    //impede o envio normal do formulário
-    //força a chamada a passar pelo "modal"
 
     event.preventDefault();
 
-    var email = document.getElementById('email').value;
+    var email = document.getElementById('e-mail').value;
     var usuario = document.getElementById('usuario').value;
     var senha = document.getElementById('senha').value;
 
