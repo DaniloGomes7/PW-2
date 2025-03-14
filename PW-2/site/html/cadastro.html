@@ -2,7 +2,7 @@
 <html lang="PT-BR">
     <head>
         <meta charset="UTF-8">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cadastro cliente</title>
 
         <link rel="stylesheet" href="../css/cadastro.css">
@@ -12,7 +12,7 @@
         <script src="../js/cadastro.js"></script>
     </head>
     <body>
-        <div class="container-principal-cadastro"> 
+        <div class="container-cadastro"> 
             <div class="formulario-cadastro"> 
                     <form id="form-cadastro" onsubmit="cadastrar(event)">
                         
@@ -23,9 +23,9 @@
                         <input type="text" placeholder="Usuario" id="usuario" required="true" minlength="4">
                         
                         <input type="password" placeholder="Senha" id="senha" required="true" minlength="6">
-
+                            <br>
                         <input type="submit" value="Cadastrar" onclick="cadastrar();return false"/>
-                    </form>
+                </form>
             </div>
         </div>
     </body>

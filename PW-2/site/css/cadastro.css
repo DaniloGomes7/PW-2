@@ -1,57 +1,59 @@
-.container-principal-cadastro{
+.container-cadastro{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:100%;
-    background-color : #0929a7;
-    vertical-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   
-}
+    height: 100%;
+    background-color: #250b9a;
+    
+}    
 .formulario-cadastro{
-    padding: 20px;
+    
+    padding: 25px;
     background-repeat: inherit 100%;
-    background-color: rgb(34, 0, 66);
-    width: 400px;
+    background-color: rgb(127, 35, 212);
+    width: 50%;
+    height: 200px;
     box-shadow:5px 5px 5px rgb(0, 0, 0);
     border-radius: 10px;
+
 }
-input[type= "email"]{
-    margin: 10px 0;
+input[type= "email" ]{
+    margin: 10px;
+    margin-left: 100px;
     border-radius: 5px;
     border: 1px solid black;
     font-size: 15px;
     
 }
-input[type="text"]{
-    margin: 10px 0;
+input[type= "text" ]{
+    margin: 10px;
+    margin-left: 100px;
     border-radius: 5px;
     border: 1px solid black;
     font-size: 15px;
-}
+
+}  
+input[type= "password" ]{
+    margin: 10px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 15px;
     
-input[type="password"]{
-    margin: 10px 0;
-    border-radius: 5px;
-    border: 1px solid black;
-    font-size: 15px;
 }
-
-
 input [type="submit"]{
-    width: 100%;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 7px;
-    font-size: 18px;
-    border: 2px solid black;
-
+  position: center;
 }
+
+input[type="submit"]:hover {
+    background-color: rgb(0, 170, 85);
+    padding: 11px;
+}
+
 form h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
-    color: beige;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+
 }

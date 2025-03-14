@@ -11,7 +11,7 @@
     background-color: #ffffff;
     padding : 25px; /*espaçamento interno*/
     border-radius: 10px;
-    box-shadow: 4px 4px 4px rgb(255, 255, 255);
+    box-shadow: 4px 4px 0px rgb(255, 255, 255);
     width : 350px
 }
 
