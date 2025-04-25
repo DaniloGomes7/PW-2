@@ -1,0 +1,32 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/> 
+        <title>Cadastro Cliente</title>
+ 
+        <link rel="stylesheet" type="text/css" href="../css/cadastro.css">        
+
+        <script src="../js/cadastro.js"></script>        
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>       
+
+    </head>
+    <body>
+        <div class="container-cadastro">
+            <div class="formulario-cadastro">
+                <form id="form-cadastro" onsubmit="cadastrar(event)">
+
+                    <h3> Faça ja seu Cadastro</h3>
+
+                    <input type="email" placeholder="E-mail:" id="e-mail" required="true" >
+
+                    <input type="text" placeholder="Usuário:" id="usuario" required="true" minlength="6">
+
+                    <input type="password" placeholder="Senha:" id="senha" required="true" minlength="4">
+
+                    <input type="submit" value="Cadastrar" onclick="cadastrar();return false"/>
+                
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
